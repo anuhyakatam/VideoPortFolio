@@ -72,6 +72,9 @@ body {
     text-decoration: none;
     color: white;
     transition: 0.3s;
+
+    margin-top: 25px;
+    display: inline-block;
 }
 
 .btn:hover {
