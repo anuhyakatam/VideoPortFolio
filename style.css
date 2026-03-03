@@ -53,12 +53,6 @@ body {
         2px 2px 8px rgba(0,0,0,0.8),
         -2px -2px 8px rgba(0,0,0,0.8);
 }
-.hero-content {
-    background: rgba(0,0,0,0.4);
-    padding: 30px 50px;
-    border-radius: 12px;
-    backdrop-filter: blur(8px);
-}
 
 .btn {
     padding: 14px 35px;
