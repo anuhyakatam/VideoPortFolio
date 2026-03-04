@@ -42,7 +42,7 @@ body {
     
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     padding-top: 180px;
     text-align: center;
 }
