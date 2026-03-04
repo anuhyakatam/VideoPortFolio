@@ -47,12 +47,7 @@ body {
     padding-top: 180px;
     text-align: center;
 }
-.hero-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-}
+
 .hero::before {
 	content: "";
 	position: absolute;
