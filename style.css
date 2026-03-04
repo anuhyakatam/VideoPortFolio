@@ -19,6 +19,7 @@ body {
     justify-content: space-between;
     background: rgba(0,0,0,0.5);
     backdrop-filter: blur(12px);
+    z-index: 1000;
 }
 
 .nav-links li {
@@ -52,6 +53,13 @@ body {
     align-items: center;
     gap: 25px;
 }
+.hero::before {
+	content: "";
+	position: absolute;
+	inset: 0;
+	background: rgba(0,0,0,0.35);
+	pointer-events: none;
+}
 
 .hero h1 {
     color: white;
@@ -59,6 +67,7 @@ body {
     font-size: 5vw;
 
     margin-top: 60px;
+    
     text-shadow:
         0 0 10px rgba(255,255,255,0.6),
         0 0 20px rgba(255,255,255,0.6),
